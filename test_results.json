@@ -1,0 +1,26 @@
+{
+  "evaluation_summary": {
+    "total_questions": 25,
+    "chunking_strategies_tested": ["300", "500", "800"],
+    "metrics_calculated": [
+      "hit_rate", "mrr", "precision_at_k", 
+      "rouge_l", "bleu", "cosine_similarity", 
+      "answer_relevance", "faithfulness"
+    ],
+    "evaluation_date": "2025-11-18"
+  },
+  "optimal_configuration": {
+    "recommended_chunk_size": 500,
+    "reason": "Balanced performance with good ROUGE-L score (0.324) and stable retrieval metrics"
+  },
+  "performance_summary": {
+    "overall_hit_rate": 0.880,
+    "best_rouge_l": 0.334,
+    "system_accuracy": "88% retrieval success rate"
+  },
+  "detailed_results_files": [
+    "test_results_chunk_300.json",
+    "test_results_chunk_500.json", 
+    "test_results_chunk_800.json"
+  ]
+}
