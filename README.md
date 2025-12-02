@@ -15,7 +15,7 @@ A comprehensive RAG (Retrieval-Augmented Generation) system for Dr. B.R. Ambedka
 5. **Cultural Benchmark Suite** - 10-question test suite with 5 evaluation metrics
 6. **Contextual Compression Analysis** - Information loss measurement across processing strategies
 
-## 📊 Target Outcomes Achieved
+## Target Outcomes Achieved
 
 | Outcome | Status | Description |
 |---------|--------|-------------|
@@ -80,7 +80,7 @@ ollama pull mistral
 python main.py
 ```
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 ### **Cultural Benchmark Results**
 - **Average Cultural Score:** 0.333 (Basic Understanding)
@@ -97,7 +97,7 @@ python main.py
 ```bash
 python main.py
 ```
-Ask questions like:
+Example questions:
 - "What is the cultural significance of caste system?"
 - "How did Ambedkar view democracy?"
 
