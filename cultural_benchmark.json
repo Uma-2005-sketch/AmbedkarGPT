@@ -1,0 +1,94 @@
+{
+  "name": "Ambedkar Cultural Context Benchmark",
+  "description": "Benchmark for evaluating cultural and contextual understanding in LLMs",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the cultural significance of the caste system in Indian history?",
+      "type": "cultural_understanding",
+      "cultural_aspects": ["hierarchy", "social_structure", "religious_basis"],
+      "difficulty": "medium",
+      "expected_keywords": ["varna", "jati", "dharma", "social_hierarchy", "religious_sanction"]
+    },
+    {
+      "id": 2,
+      "question": "How did Ambedkar's Buddhist conversion reflect his cultural critique?",
+      "type": "cultural_critique",
+      "cultural_aspects": ["religious_conversion", "social_protest", "cultural_rejection"],
+      "difficulty": "hard",
+      "expected_keywords": ["dhamma", "social_gospel", "rejection_of_hinduism", "alternative_morality"]
+    },
+    {
+      "id": 3,
+      "question": "What cultural barriers did untouchables face in accessing water resources?",
+      "type": "cultural_practice",
+      "cultural_aspects": ["pollution_taboo", "social_exclusion", "resource_control"],
+      "difficulty": "easy",
+      "expected_keywords": ["water_wells", "separate_vessels", "social_distance", "pollution_beliefs"]
+    },
+    {
+      "id": 4,
+      "question": "How does the concept of 'Annihilation of Caste' challenge traditional Hindu cultural norms?",
+      "type": "cultural_challenge",
+      "cultural_aspects": ["religious_authority", "social_reform", "scriptural_critique"],
+      "difficulty": "hard",
+      "expected_keywords": ["shastras", "religious_reform", "social_equality", "scriptural_rejection"]
+    },
+    {
+      "id": 5,
+      "question": "What cultural symbolism is associated with the Poona Pact in Indian politics?",
+      "type": "cultural_symbolism",
+      "cultural_aspects": ["political_negotiation", "minority_rights", "historical_compromise"],
+      "difficulty": "medium",
+      "expected_keywords": ["gandhi", "separate_electorates", "reserved_seats", "political_representation"]
+    },
+    {
+      "id": 6,
+      "question": "How did Ambedkar's background as an untouchable shape his cultural perspective on democracy?",
+      "type": "cultural_perspective",
+      "cultural_aspects": ["lived_experience", "social_position", "political_philosophy"],
+      "difficulty": "medium",
+      "expected_keywords": ["lived_experience", "social_exclusion", "political_empowerment", "constitutional_rights"]
+    },
+    {
+      "id": 7,
+      "question": "What cultural factors contributed to the persistence of untouchability despite legal abolition?",
+      "type": "cultural_persistence",
+      "cultural_aspects": ["social_norms", "religious_beliefs", "economic_interests"],
+      "difficulty": "hard",
+      "expected_keywords": ["social_norms", "religious_sanctions", "economic_exploitation", "cultural_inertia"]
+    },
+    {
+      "id": 8,
+      "question": "How does Ambedkar's view of Buddha differ from traditional Buddhist cultural interpretations?",
+      "type": "cultural_reinterpretation",
+      "cultural_aspects": ["religious_reform", "social_ethics", "philosophical_interpretation"],
+      "difficulty": "hard",
+      "expected_keywords": ["social_gospel", "moral_code", "social_reform", "religious_practice"]
+    },
+    {
+      "id": 9,
+      "question": "What cultural role did the Constitution play in transforming Indian social structure?",
+      "type": "cultural_transformation",
+      "cultural_aspects": ["legal_framework", "social_change", "rights_protection"],
+      "difficulty": "medium",
+      "expected_keywords": ["fundamental_rights", "social_justice", "legal_equality", "constitutional_morality"]
+    },
+    {
+      "id": 10,
+      "question": "How did the concept of 'social endosmosis' reflect Ambedkar's cultural vision for India?",
+      "type": "cultural_vision",
+      "cultural_aspects": ["social_integration", "cultural_exchange", "societal_harmony"],
+      "difficulty": "hard",
+      "expected_keywords": ["social_endosmosis", "cultural_exchange", "social_harmony", "community_integration"]
+    }
+  ],
+  "evaluation_metrics": [
+    "cultural_relevance",
+    "contextual_accuracy", 
+    "nuance_understanding",
+    "sensitivity_score",
+    "completeness_score"
+  ]
+}

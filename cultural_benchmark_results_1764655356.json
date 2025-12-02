@@ -1,0 +1,74 @@
+{
+  "benchmark_run": {
+    "timestamp": "2025-12-02 11:32:36",
+    "total_questions": 2,
+    "system": "Enhanced AmbedkarGPT (Bedrock + SEMRAG)"
+  },
+  "qa_pairs": [
+    {
+      "question_id": 1,
+      "question": "What is the cultural significance of the caste system in Indian history?",
+      "answer": "The caste system, a complex and deeply entrenched social structure in India, has played a significant role in shaping Indian history, culture, and society for millennia. Originating from ancient Hindu scriptures around 1500 BCE, the caste system categorized society into four primary divisions (varnas) - Brahmins (priests), Kshatriyas (warriors and rulers), Vaishyas (merchants and farmers), and Shudras (laborers). Untouchables, known as Dalits or \"the oppressed\" in contemporary India, were considered outside the varna system due to their perceived impurity.\n\nThroughout Indian history, the caste system has had profound social, economic, and political implications. The system organized people into distinct groups with specific roles and duties, which created a stratified society with rigid hierarchies that persist to this day. It influenced the division of labor, access to resources, and opportunities for mobility and social advancement.\n\nCaste identity has been deeply ingrained in Indian culture, influencing aspects such as marriage, food, occupation, religious rituals, and even personal behavior. Caste affiliations have historically determined an individual's place within the community, their access to resources, and their relationship with other castes.\n\nHowever, it is important to note that while the caste system has had a lasting impact on Indian society, its interpretation and practice have evolved significantly over time. The Indian subcontinent has a rich history of religious diversity, with Jainism, Buddhism, and Sikhism emerging as major religions challenging the rigid hierarchies of the caste system.\n\nIn more recent times, India's struggle for independence and subsequent constitutional reforms under the leadership of Dr. B.R. Ambedkar have sought to address the inequalities perpetuated by the caste system. The Indian Constitution, drafted by Dr. Ambedkar, includes provisions aimed at promoting social justice and equality, such as affirmative action policies for marginalized communities like Dalits and women.\n\nIn contemporary India, while the caste system remains a significant aspect of social and cultural life, it is increasingly being questioned and challenged, particularly in urban areas and among younger generations. However, caste-based discrimination and inequality persist, and efforts continue to address these issues through policy changes, education, and grassroots activism.\n\nIn summary, the caste system has played a crucial role in shaping Indian history, culture, and society. While its significance and impact have evolved over time, it remains an essential aspect of understanding contemporary India's social dynamics. It is important to approach discussions about the caste system with cultural sensitivity, recognizing both its historical roots and its ongoing implications for marginalized communities.",
+      "type": "cultural_understanding",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 2,
+      "question": "How did Ambedkar's Buddhist conversion reflect his cultural critique?",
+      "answer": "Dr. B.R. Ambedkar's conversion to Buddhism in 1956, a significant event in Indian history, was an embodiment of his profound critique of the caste system and Hindu social order. It is essential to note that Ambedkar's conversion must be viewed within the broader context of Indian culture, history, and society, particularly the oppressive caste system that has shaped Indian society for centuries.\n\nAmbedkar, a Dalit (previously known as 'Untouchables'), was born into a marginalized community in the rigid hierarchical structure of Hinduism. He spent much of his life advocating for the rights and upliftment of the Dalits through education, law, and political activism. Ambedkar's disillusionment with Hinduism stemmed from its deep-rooted caste system, which he believed perpetuated discrimination, exploitation, and social exclusion of the lower castes.\n\nAmbedkar found solace in Buddhism, a religion that originated in India but had been overshadowed by Hinduism over time. He was particularly drawn to Buddhism's emphasis on equality, justice, and the elimination of caste discrimination. He studied the Buddhist scriptures extensively and found in them teachings that aligned with his vision for a more equitable society.\n\nAmbedkar's conversion to Buddhism was thus not merely a religious conversion but a cultural critique aimed at challenging the dominant Hindu social order and its discriminatory practices. He sought to create a separate identity for the Dalits, one that was independent of the oppressive caste system embedded in Hinduism.\n\nThrough his conversion, Ambedkar aimed to reclaim Buddhism as an indigenous Indian religion, promoting it as a tool for social reform and emancipation of the marginalized communities. He envisioned a new Buddhist society based on equality, where the Dalits could attain self-respect and dignity.\n\nIn conclusion, Ambedkar's Buddhist conversion reflected his cultural critique by challenging the entrenched caste system in Indian society and advocating for social reform through the revival of Buddhism. His actions served as a powerful statement against caste discrimination and paved the way for the empowerment of marginalized communities in India.\n\nIt is important to note that Ambedkar's influence continues to resonate in contemporary India, where his ideas about equality, justice, and social reform are still relevant and inspire movements aimed at uplifting the marginalized communities. His legacy serves as a testament to the transformative power of cultural critique in challenging entrenched systems of oppression and working towards a more equitable society.",
+      "type": "cultural_critique",
+      "difficulty": "hard"
+    }
+  ],
+  "evaluation_results": {
+    "results": [
+      {
+        "question_id": 1,
+        "question": "What is the cultural significance of the caste sys...",
+        "metrics": {
+          "cultural_relevance": 0.2,
+          "contextual_accuracy": 0.236,
+          "nuance_understanding": 0.8,
+          "sensitivity_score": 0.5,
+          "completeness_score": 0.44,
+          "overall_score": 0.41
+        },
+        "expected_keywords": [
+          "varna",
+          "jati",
+          "dharma",
+          "social_hierarchy",
+          "religious_sanction"
+        ],
+        "matched_keywords": [
+          "varna"
+        ]
+      },
+      {
+        "question_id": 2,
+        "question": "How did Ambedkar's Buddhist conversion reflect his...",
+        "metrics": {
+          "cultural_relevance": 0.0,
+          "contextual_accuracy": 0.386,
+          "nuance_understanding": 0.2,
+          "sensitivity_score": 0.5,
+          "completeness_score": 0.3,
+          "overall_score": 0.256
+        },
+        "expected_keywords": [
+          "dhamma",
+          "social_gospel",
+          "rejection_of_hinduism",
+          "alternative_morality"
+        ],
+        "matched_keywords": []
+      }
+    ],
+    "summary": {
+      "average_score": 0.33317857142857144,
+      "max_score": 0.4099285714285715,
+      "min_score": 0.25642857142857145,
+      "total_questions": 2
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "label": "The Buddha's Dhamma",
+      "type": "ORG",
+      "docs": [
+        "speech2"
+      ]
+    },
+    {
+      "id": 1,
+      "label": "Dhamma",
+      "type": "GPE",
+      "docs": [
+        "speech2"
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Dhamma",
+      "type": "PERSON",
+      "docs": [
+        "speech2"
+      ]
+    },
+    {
+      "id": 3,
+      "label": "Buddhas",
+      "type": "PERSON",
+      "docs": [
+        "speech2"
+      ]
+    },
+    {
+      "id": 4,
+      "label": "Buddha",
+      "type": "PERSON",
+      "docs": [
+        "speech2"
+      ]
+    },
+    {
+      "id": 5,
+      "label": "Karma",
+      "type": "PERSON",
+      "docs": [
+        "speech2"
+      ]
+    },
+    {
+      "id": 6,
+      "label": "two",
+      "type": "CARDINAL",
+      "docs": [
+        "speech3",
+        "speech5"
+      ]
+    },
+    {
+      "id": 7,
+      "label": "First",
+      "type": "ORDINAL",
+      "docs": [
+        "speech3"
+      ]
+    },
+    {
+      "id": 8,
+      "label": "Second",
+      "type": "ORDINAL",
+      "docs": [
+        "speech3"
+      ]
+    },
+    {
+      "id": 9,
+      "label": "Constitution",
+      "type": "LAW",
+      "docs": [
+        "speech3"
+      ]
+    },
+    {
+      "id": 10,
+      "label": "Education",
+      "type": "ORG",
+      "docs": [
+        "speech4"
+      ]
+    },
+    {
+      "id": 11,
+      "label": "Hindu",
+      "type": "NORP",
+      "docs": [
+        "speech5"
+      ]
+    },
+    {
+      "id": 12,
+      "label": "Hindus",
+      "type": "NORP",
+      "docs": [
+        "speech5"
+      ]
+    },
+    {
+      "id": 13,
+      "label": "Muslims",
+      "type": "NORP",
+      "docs": [
+        "speech5"
+      ]
+    },
+    {
+      "id": 14,
+      "label": "Pakistan",
+      "type": "GPE",
+      "docs": [
+        "speech5"
+      ]
+    },
+    {
+      "id": 15,
+      "label": "India",
+      "type": "GPE",
+      "docs": [
+        "speech5",
+        "speech6"
+      ]
+    },
+    {
+      "id": 16,
+      "label": "British",
+      "type": "NORP",
+      "docs": [
+        "speech5"
+      ]
+    },
+    {
+      "id": 17,
+      "label": "Muslim",
+      "type": "NORP",
+      "docs": [
+        "speech5"
+      ]
+    },
+    {
+      "id": 18,
+      "label": "Indian",
+      "type": "NORP",
+      "docs": [
+        "speech6"
+      ]
+    },
+    {
+      "id": 19,
+      "label": "Aryans",
+      "type": "NORP",
+      "docs": [
+        "speech6"
+      ]
+    },
+    {
+      "id": 20,
+      "label": "Ambedkar",
+      "type": "CUSTOM",
+      "docs": [
+        "manual"
+      ]
+    },
+    {
+      "id": 21,
+      "label": "equality",
+      "type": "CUSTOM",
+      "docs": [
+        "manual"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": 20,
+      "target": 21,
+      "label": "advocated_for",
+      "doc_id": "manual",
+      "sentence": "Ambedkar fought for equality and social justice"
+    }
+  ],
+  "statistics": {
+    "total_nodes": 22,
+    "total_edges": 1
+  }
+}

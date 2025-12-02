@@ -1,0 +1,44 @@
+{
+  "speech1.txt": {
+    "title": "Annihilation of Caste",
+    "year": 1936,
+    "context": "Written as undelivered speech for Lahore conference, critiques Hindu caste system",
+    "cultural_markers": ["caste", "hinduism", "social_reform", "shastras"],
+    "key_themes": ["caste_annihilation", "religious_reform", "social_equality"]
+  },
+  "speech2.txt": {
+    "title": "Buddha and His Dhamma",
+    "year": 1957,
+    "context": "Philosophical work on Buddhism as social gospel",
+    "cultural_markers": ["buddhism", "dhamma", "morality", "social_ethics"],
+    "key_themes": ["buddhist_philosophy", "social_morality", "religious_conversion"]
+  },
+  "speech3.txt": {
+    "title": "Political Power for Depressed Classes",
+    "year": 1945,
+    "context": "Advocacy for political rights of untouchables",
+    "cultural_markers": ["untouchables", "political_power", "depressed_classes", "reservation"],
+    "key_themes": ["political_empowerment", "social_justice", "constitutional_rights"]
+  },
+  "speech4.txt": {
+    "title": "Autobiographical Notes",
+    "year": 1955,
+    "context": "Personal experiences with untouchability",
+    "cultural_markers": ["autobiography", "untouchability", "personal_narrative", "discrimination"],
+    "key_themes": ["personal_struggle", "social_exclusion", "educational_rights"]
+  },
+  "speech5.txt": {
+    "title": "Constitution and Social Justice",
+    "year": 1949,
+    "context": "Role in drafting Indian Constitution",
+    "cultural_markers": ["constitution", "fundamental_rights", "social_justice", "democracy"],
+    "key_themes": ["constitutional_law", "rights_protection", "democratic_principles"]
+  },
+  "speech6.txt": {
+    "title": "The Untouchables",
+    "year": 1948,
+    "context": "Historical analysis of untouchable communities",
+    "cultural_markers": ["untouchables", "historical_analysis", "social_hierarchy", "aryan_invasion"],
+    "key_themes": ["historical_oppression", "social_hierarchy", "community_identity"]
+  }
+}
