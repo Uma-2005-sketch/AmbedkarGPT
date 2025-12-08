@@ -3,7 +3,7 @@
 
 A comprehensive RAG (Retrieval-Augmented Generation) system for Dr. B.R. Ambedkar's speeches with AWS Bedrock integration, SEMRAG architecture, cultural context preservation, and knowledge graph capabilities.
 
-## 🚀 Enhanced Features
+##  Enhanced Features
 
 ### **Core Architecture**
 1. **AWS Bedrock Integration** - Claude 3 compatible architecture with local fallback (Ollama/Mistral)
@@ -15,7 +15,7 @@ A comprehensive RAG (Retrieval-Augmented Generation) system for Dr. B.R. Ambedka
 5. **Cultural Benchmark Suite** - 10-question test suite with 5 evaluation metrics
 6. **Contextual Compression Analysis** - Information loss measurement across processing strategies
 
-## 📊 Target Outcomes Achieved
+## Target Outcomes Achieved
 
 | Outcome | Status | Description |
 |---------|--------|-------------|
@@ -26,7 +26,7 @@ A comprehensive RAG (Retrieval-Augmented Generation) system for Dr. B.R. Ambedka
 | 5. Cultural Context Benchmark | ✅ **Implemented** | 10-question benchmark with scoring |
 | 6. Contextual Compression Analysis | ✅ **Implemented** | Info loss measurement and strategy comparison |
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 AmbedkarGPT/
@@ -58,7 +58,7 @@ AmbedkarGPT/
 └── README.md                        # This file
 ```
 
-## 🔧 Installation & Setup
+## Installation & Setup
 
 ### **Prerequisites**
 - Python 3.8+
@@ -80,7 +80,7 @@ ollama pull mistral
 python main.py
 ```
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 ### **Cultural Benchmark Results**
 - **Average Cultural Score:** 0.333 (Basic Understanding)
@@ -91,13 +91,13 @@ python main.py
 - **Hit Rate:** 88% (from original evaluation)
 - **Hybrid Retrieval:** Vector + Graph integration active
 
-## 🎯 Usage Examples
+##  Usage Examples
 
 ### **1. Interactive Q&A**
 ```bash
 python main.py
 ```
-Ask questions like:
+Example questions:
 - "What is the cultural significance of caste system?"
 - "How did Ambedkar view democracy?"
 
@@ -111,20 +111,20 @@ python run_cultural_benchmark.py 3
 python compression_analyzer.py 2
 ```
 
-## 🔗 Knowledge Graph Features
+##  Knowledge Graph Features
 
 The system extracts entities and relationships from speeches:
 - **22 nodes** (entities like "Buddha", "Caste", "Democracy")
 - **Relations** extracted via semantic parsing
 - **Graph queries** for semantic relationships
 
-## 🎭 Cultural Context System
+##  Cultural Context System
 
 - **Metadata Markers:** Year, context, cultural themes for each speech
 - **Context-Aware Embeddings:** Enhanced with cultural metadata
 - **Cultural Sensitivity Scoring:** Built-in evaluation of responses
 
-## 🚀 Advanced Features
+##  Advanced Features
 
 ### **SEMRAG (Semantic RAG with Graph)**
 - Combines vector similarity search with graph semantic search
@@ -141,7 +141,7 @@ The system extracts entities and relationships from speeches:
 - Compares summarization, extraction, paraphrasing strategies
 - Recommends optimal processing methods
 
-## 📊 Evaluation Framework
+##  Evaluation Framework
 
 ### **Original Metrics**
 - Hit Rate, MRR, Precision@K
@@ -155,7 +155,7 @@ The system extracts entities and relationships from speeches:
 - Sensitivity Score (0-1)
 - Completeness Score (0-1)
 
-## 🔄 Migration to Production
+##  Migration to Production
 
 ### **1. AWS Bedrock Setup**
 Replace dummy credentials in `bedrock_integration.py` with real AWS credentials.
@@ -166,7 +166,7 @@ Use Neo4j or AWS Neptune instead of mock graph database.
 ### **3. Vector Store Fix**
 Fix metadata format issue for ChromaDB persistence.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Dr. B.R. Ambedkar's speeches as primary corpus
 - AWS Bedrock for LLM infrastructure
