@@ -1,0 +1,23 @@
+chunking:
+  model_name: "all-MiniLM-L6-v2"
+  threshold: 0.7
+  buffer_size: 2
+  max_tokens: 1024
+  subchunk_tokens: 128
+
+graph:
+  ner_model: "en_core_web_sm"
+  community_method: "leiden"  # or "louvain"
+
+retrieval:
+  local:
+    top_k: 5
+    tau_e: 0.6
+    tau_d: 0.5
+  global:
+    top_k: 3
+
+llm:
+  model: "mistral"  # or "llama3", "gemma2"
+  temperature: 0.1
+  max_tokens: 1000

@@ -37,8 +37,8 @@ ehthumbs.db
 Thumbs.db
 desktop.ini
 
-# Large data files
-*.pdf
+# Large data files (COMMENTED OUT *.pdf to include Ambedkar book)
+# *.pdf  # Commented out to include Ambedkar_book.pdf
 *.docx
 *.pptx
 *.pkl
